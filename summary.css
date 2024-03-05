@@ -5,7 +5,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
-
 }
 
 .container {
@@ -13,24 +12,20 @@ body {
     flex: row;
     background-color: white;
     border-radius: 30px;
-
 }
 
 .result {
-    background-color: #4936f2;
+    background: linear-gradient(#4936f2d3, #4936f2);
     border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     color: white;
     width: 300px;
     height: 420px;
+    padding: 10px;
+    text-align: center;}
 
-}
-
-img {
-    height: 50px;
-    width: 50px;
+img{
+    height: 150px;
+    width: 150px;
 }
 
 .summary {
@@ -45,31 +40,43 @@ img {
 }
 
 .reaction {
-    background-color: #c49290;
+    background-color: #c4929046;
     color: #dc696c;
-border-radius: 10px;
-margin: 10px;}
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;}
 
 .memory {
-    background-color: #fffcc2;
+    background-color: #fffcc26c;
     color: #f2ba52;
     border-radius: 10px;
-    margin: 10px
-}
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;}
 
 .verbal {
-    background-color: #cafefa;
+    background-color: #cafefa71;
     color: #66b8a4;
     border-radius: 10px;
-    margin: 10px
-}
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;}
 
 .visual {
-    background-color: #d1dcfb;
+    background-color: #d1dcfb63;
     color: #373dc4;
     border-radius: 10px;
-    margin: 10px
-}
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;}
 
 button {
     background-color: #303b59;
@@ -78,4 +85,20 @@ button {
     height: 45px;
     color: white;
     margin: auto;
-    display: block;}
+    display: block;
+    margin-top: 10px;}
+
+.textgray {
+    color: rgb(154, 148, 148);
+    margin-top: 40px;}
+
+
+.titlegray {
+    color: rgb(203, 202, 202);}
+
+.titlesummary {
+    padding: 10px;}
+
+.numbercolor {
+    color: black;
+    margin-right: 15px;}
